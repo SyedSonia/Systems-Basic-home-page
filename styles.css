@@ -1,0 +1,277 @@
+.nav-link,.btn-link,.features p,.work-procedure span,.carousel-item p,::placeholder,.subscribe span{
+	font-size:14px;
+}
+.features h6,.work-procedure strong,.carousel-item h6,.carousel-item strong{
+	font-size:15px;
+}
+.nav-link,.btn-link,.sign-up,.features h6,.subscribe span{
+	font-weight:500;
+}
+.fa-angle-left,.fa-angle-right,.subscribe span,::placeholder{
+	color:#000 !important;
+}
+.sign-up,.started,.started:hover,#footer{
+	color: #fff;
+}
+
+
+.logo{
+	align-items: center;
+	display: flex;
+}
+.logo img{
+	width:100%;
+}
+.nav-item .active{
+	color: #347843 !important;
+}
+.nav-link{
+	color: #292929 !important;
+}
+.btn-link{
+	color: #292929;
+}
+.btn:focus{
+	box-shadow:none;
+}
+.btn-link:hover{
+	text-decoration:none;
+	color:#292929;
+}
+.sign-up{
+	background: #347843;
+    border-radius: 14.7566px;
+    border: none;
+    outline: none;
+    padding: 2px 12px;
+    font-size:12px;
+}
+
+/*pal systems works here*/
+.pal-systems{
+	background: #F8F8F8;
+	padding:100px 0px 50px 0px;
+}
+.pal-systems img{
+	width:60%;
+}
+.pal-systems h4{
+	font-weight:900;
+}
+.pal-systems p{
+	color: #323232;
+	padding:15px 0px;
+}
+.started{
+	background: #347843;
+    border-radius: 35px;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    padding: 8px 17px;
+}
+
+/*features works here*/
+.features{
+	margin-top:70px;
+}
+
+.features p{
+	color: #6C6C6C;
+}
+.real-time{
+	background: #FFFFFF;
+	box-shadow: 7px 7px 14px rgba(52, 120, 67, 0.15);
+	border-radius: 15px;
+	margin-top:20px !important;
+}
+.real-time:hover{
+	box-shadow: 8px 8px 14px #d9d9d9,-8px -8px 12px #fff!important;
+    transition: .4s;
+}
+.real-time img{
+	width:100%;
+}
+.realtime-content{
+	align-items:center;
+	display:flex; 
+}
+
+/*how it works*/
+.work-procedure span{
+	font-weight:900;
+	color: #347843;
+	line-height:35px;
+}
+
+
+/*testimonial*/
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #C4C4C4;
+}
+.carousel-indicators{
+    position: absolute;
+    bottom: 0px;
+    justify-content: center;
+    margin-right: 15%;
+}
+.carousel-indicators .active{
+	width:13px;
+	height:13px;
+}
+.about-client .carousel-item p{
+	color: #6C6C6C;
+	font-size:13px;
+}
+.carousel-item h6{
+	padding-top:15px;
+}
+
+/*case study works here*/
+.case-study{
+	background: #F8F8F8;
+}
+
+a.carousel-control-next,a.carousel-control-prev{
+	width:22px;
+}
+.fa-angle-left,.fa-angle-right{
+	font-size:25px;
+}
+
+/*subscribe works here*/
+.subscribe{
+	padding:70px 0px;
+}
+.subscribe span{
+	opacity:0.7;
+	padding:0px 14px;
+}
+.subscribe .input-group{
+	width:35%;
+	margin-top:30px;
+}
+ .subscribe .form-control{
+	background: #E8E8E8;
+	border-radius: 35px;
+	border:none;
+}
+.started:hover{
+}
+.form-control:focus {
+	box-shadow:none;
+}
+
+
+/*footer part*/
+#footer{
+	background: #000000;
+}
+#footer img{
+	width:30%;
+}
+#footer .btn-link{
+	color:white !important;
+}
+#footer ul{
+    display: flex;
+    justify-content: space-between;
+}
+#footer ul li{
+    list-style: none;
+}
+#footer ul li a{
+    text-decoration: none;
+    color: white !important;
+    font-size: 13px;
+    padding:0px;
+}
+.navbar-light .navbar-toggler{
+		border-color:#347843;
+	}
+
+
+/*media queries*/
+@media (min-width: 280px) and (max-width: 720px){
+	.websites,.pal-systems img{
+		padding-top:10px !important;
+	}
+	.navbar-toggler{
+		position: absolute;
+		top: -35px;
+    	right: -9px;
+	}
+	.navbar{
+		padding-bottom:10px;
+		width:100%;
+		border-bottom:1px solid #000;
+	}
+	.navbar-nav{
+		margin-top:15px;
+	}
+	.logo,.realtime-content,.dummy-text,#footer ul{
+		padding: 0px !important;
+	}
+	.systems{
+		float: left !important;
+	}
+	.pal-systems img{
+		width:100%;
+	}
+	.realtime-content h6{
+		padding-top: 15px;
+	}
+	.dummy-text{
+		padding:12px 10px 0px 10px !important;
+	}
+	.case-study{
+		padding:15px 0px !important;
+	}
+	.subscribe .input-group{
+		width:77%;
+	}
+	#footer{
+		padding: 40px 15px;
+	}
+}
+@media (min-width: 523px) and (max-width: 768px){
+	.systems{
+			padding-right:25px;
+		}
+}
+@media (min-width: 546px) and (max-width: 1440px){
+	.navbar-toggler{
+		position: absolute;
+		top: -8px;
+    	right: -19px;
+	}
+	.navbar-nav .nav-link{
+		padding-right:18px;
+	}
+	.navbar-nav{
+		flex-direction: row;
+	}
+	
+	.carousel-control-next, .carousel-control-prev{
+		top:-43px;
+	}
+	.loggedin{
+		text-align: end;
+    	padding-right: 18px;
+	}
+	.dummy-text{
+		padding:10px 35px !important;
+	}
+	.case-study{
+		padding:30px!important;
+	}
+	#footer{
+		padding: 40px 30px;
+	}
+	#footer ul{
+		padding:0px;
+	}
+}
